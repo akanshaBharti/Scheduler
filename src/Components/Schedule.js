@@ -7,8 +7,9 @@ function Schedule(){
     return(
         <div>
             <Navbar/>
-            <div className = "text-center mt-3" width="1000" height = "200">
-                <img src = {imgS} className="rounded" alt="Img" width="1016" height = "250" ></img>
+            <div className = "text-center " width="1000" height = "200">
+                {/* <img src = {imgS} className="rounded" alt="Img" width="1016" height = "250" ></img> */}
+                <img src={imgS} class="img-fluid" alt="..."/>
                 </div>
                 <div className="mt-3">
                 <Paper elevation={3} className='mx-4'>

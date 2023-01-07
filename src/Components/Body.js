@@ -4,7 +4,7 @@ import { Paper } from '@mui/material'
  
 function Body(){
     return(
-        <div>
+        <div >
              <div className = "text-center mt-3">
                 <img src = {img} className="rounded" alt="Img" width="1100" height = "600" ></img>
               <div className = "mt-4 mx-2" >
