@@ -17,8 +17,10 @@ function App() {
    <div className='App'>
     <BrowserRouter>
     <Navbar/>
-    <Routes>
+    <Routes>  
       <Route path='/' element = {<Home/>}></Route>
+      <Route path='/home' element = {<Home/>}></Route>
+
     <Route path = '/schedule' element={<Schedule/>}/>
     <Route path = '/login' element={<Login/>}/>
     <Route path = '/profile' element={<Profile/>}/>
@@ -27,7 +29,7 @@ function App() {
 
     </Routes>
     </BrowserRouter>
-  </div>
+  </div> 
   
   </div>
   )

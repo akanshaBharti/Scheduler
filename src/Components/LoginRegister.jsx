@@ -15,6 +15,6 @@ function LoginRegister() {
       }
     </div>
   )
-}
+}  
 
 export default LoginRegister

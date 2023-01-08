@@ -5,8 +5,9 @@ import { Paper } from '@mui/material'
 function Body(){
     return(
         <div >
-             <div className = "text-center mt-3">
-                <img src = {img} className="rounded" alt="Img" width="1100" height = "600" ></img>
+             <div className = "text-center mt-5">
+                {/* <img src = {img} className="rounded" alt="Img" width="1100" height = "600" ></img> */}
+                <img src={img} class="img-fluid" alt="..."/>
               <div className = "mt-4 mx-2" >
               <Paper elevation={3}>
                 <fieldset>

@@ -4,29 +4,28 @@ import '../css/Login.css'
 import {Link} from 'react-router-dom'
 import LoginRegister from './LoginRegister';
 
- const Login = (props) => {
+ const Login = () => {
     const [email,setEmail] = useState ('');
     const [password,setPassword] = useState ('');  
-     
 
     const handleSubmit =(e) =>{
         e.preventDefault();
-    };
-    
-    const emailTest = (e) =>{
+    }; 
+     
+    const emailTest = (e) =>{ 
         console.log('email test', e.target.value)
         
         setEmail(e.target.value);
     }
-    const passwordTest = (e) =>{
-        console.log('password test', e.target.value)
-        setPassword(e.target.value);
-    }
+    const passwordTest = (e) =>{  
+        console.log('password test', e.target.value) 
+        setPassword(e.target.value); 
+    } 
 
     return (
-        <div>
+        <div >
         <div className='auth-form-container '>
-            <h2>Login</h2>
+            <h2 ><b>Login</b></h2>
         <form className='login-form' onSubmit={handleSubmit}>
             <label htmlFor='email'>Email</label>
             <input  onChange={emailTest} type='email' id='email' />
@@ -36,9 +35,12 @@ import LoginRegister from './LoginRegister';
             </form>
         </div>
             
-        <Link to='/Register' className='link-btn'  >Don't  have an account register here</Link>
+        <Link to='/Register' className='link-btn'  >Don't  have an account Register Here</Link>
+        
+
+        
 
         </div>
     )
 }
-export default Login
+export default Login  

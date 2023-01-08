@@ -11,18 +11,20 @@ function Profile() {
   return (  
     <div className='profilecard'>
         <img src={profileB} class="img-fluid " alt="..."/>
+    <section>
     <div className='card'>
-        <div className='upper-container'>
+        <div className='upper'>
             <div className='image-container'>
                 <img src={profileImage} alt='...' height="100px" width="100px"/>
             </div>
-        </div>
-        <div className='lower-container'>
+        </div>  
+        <div className='lower'>
             <h3>{name}</h3>
             <h3>{email}</h3>
         </div>
       
     </div>
+    </section>
     {/* <Profile name={name} email={email}/> */}
     </div>
   )

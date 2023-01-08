@@ -3,20 +3,20 @@ import banner from '../Images/banner.png'
 import '../css/Dashboard.css'
 import bgImage from '../Images/bgImage.png'
 
-function dashboard() {
+function dashboard() {  
   return (
-    <div className='dashboard'>
+    <div className='dashboard '>
       <img src={banner} class="img-fluid" alt="..."/>
 
       <div class="card mt-5 ml-5 mr-5 ">
-  <div class="card-body bg-url('C:\Users\akansha\Desktop\React\education-ak\src\components\bgImage.png')">
-    <h5 class="card-title">Today's Schedule</h5>
+  <div class="card-body ">
+    <h5 class="card-title"><b>Today's Schedule</b></h5>
     <p class="card-text">...</p>
   </div>
 </div>
       <div class="card mt-5 ml-5 mr-5">
   <div class="card-body">
-    <h5 class="card-title">Links:</h5>
+    <h5 class="card-title"><b>Links:</b></h5>
     <p class="card-text">...</p>
   </div>
 </div>
