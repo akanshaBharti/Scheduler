@@ -1,6 +1,6 @@
 import './App.css';
 import {useState} from 'react';
-import Schedule from './Components/Schedule';
+// import Schedule from './Components/Schedule';
 import Home from './Home';
 import Login from './Components/Login'
 import Dashboard from './Components/Dashboard'
@@ -21,7 +21,7 @@ function App() {
       <Route path='/' element = {<Home/>}></Route>
       <Route path='/home' element = {<Home/>}></Route>
 
-    <Route path = '/schedule' element={<Schedule/>}/>
+    {/* <Route path = '/schedule' element={<Schedule/>}/> */}
     <Route path = '/login' element={<Login/>}/>
     <Route path = '/profile' element={<Profile/>}/>
     <Route path = '/dashboard' element={<Dashboard/>}/>

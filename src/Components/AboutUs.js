@@ -9,10 +9,9 @@ function AboutUs(){
                 <div className='text-center'>
                 <h3>About Us</h3>
                 </div>
-               <p>The Application is made by a team of 4 developers namely Rakshit (Full Stack), Vivek(Back End), Akansha(Front End), Shreyas(Front End).
-                The Application delivers personalized schedule for its members to optmizise their time.<br/>
-                Contact Us : 000999123<br/>
-                Email : edubuilds@gmail.com
+               <p>The Application delivers personalized schedule for its members to optmizise their time.<br/>
+                Contact Us : xxxxxxx231<br/>
+                Email : xyz@gmail.com
                </p>
             </Paper>
             </div>

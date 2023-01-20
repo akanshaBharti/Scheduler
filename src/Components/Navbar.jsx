@@ -31,7 +31,7 @@ function Navbar() {
       {(toggleMenu || screenWidth > 500) && (
       <ul className='list'>
         <Link to='/Home' className='items link-btn'>HOME</Link>
-        <Link to='/Schedule' className="items link-btn">SCHEDULE</Link>
+        {/* <Link to='/Schedule' className="items link-btn">SCHEDULE</Link> */}
         <Link to='/Profile' className="items link-btn">PROFILE</Link>
         <Link to='/Dashboard' className="items link-btn">DASHBOARD</Link>
         <Link to='/Login' className="items link-btn">LOGIN </Link>
